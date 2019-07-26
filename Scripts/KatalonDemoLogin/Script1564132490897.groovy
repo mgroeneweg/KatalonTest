@@ -17,13 +17,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.KatalonDemoUrl)
 
-WebUI.click(findTestObject('First test case/a_Make Appointment'))
+WebUI.click(findTestObject('Katalon demo app/a_Make Appointment'))
 
-WebUI.setText(findTestObject('First test case/input_Username_username'), username)
+WebUI.setText(findTestObject('Katalon demo app/input_Username_username'), username)
 
-WebUI.setText(findTestObject('First test case/input_Password_password'), password)
+WebUI.setText(findTestObject('Katalon demo app/input_Password_password'), password)
 
-WebUI.click(findTestObject('First test case/button_Login'))
+WebUI.click(findTestObject('Katalon demo app/button_Login'))
+
+try {
+    WebUI.verifyElementPresent(findTestObject('Katalon demo app/h2_Make Appointment'), 2)
+
+    assert expectSuccess == "true"
+}
+catch (Exception e) {
+    assert expectSuccess == "false"
+} 
 
 WebUI.closeBrowser()
 

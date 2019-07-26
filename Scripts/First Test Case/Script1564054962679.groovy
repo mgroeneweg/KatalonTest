@@ -17,26 +17,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.KatalonDemoUrl)
 
-WebUI.click(findTestObject('First test case/a_Make Appointment'))
+WebUI.click(findTestObject('Katalon demo app/a_Make Appointment'))
 
-WebUI.setText(findTestObject('First test case/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Katalon demo app/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('First test case/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Katalon demo app/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('First test case/button_Login'))
+WebUI.click(findTestObject('Katalon demo app/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('First test case/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
+WebUI.selectOptionByValue(findTestObject('Katalon demo app/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
     'Hongkong CURA Healthcare Center', true)
 
-WebUI.click(findTestObject('First test case/input_Apply for hospital readmission_hospital_readmission'))
+WebUI.click(findTestObject('Katalon demo app/input_Apply for hospital readmission_hospital_readmission'))
 
-WebUI.click(findTestObject('First test case/span_Visit Date (Required)_glyphicon glyphicon-calendar'))
+WebUI.click(findTestObject('Katalon demo app/span_Visit Date (Required)_glyphicon glyphicon-calendar'))
 
-WebUI.click(findTestObject('First test case/td_31'))
+WebUI.click(findTestObject('Katalon demo app/td_31'))
 
-WebUI.setText(findTestObject('First test case/textarea_Comment_comment'), 'Test')
+WebUI.setText(findTestObject('Katalon demo app/textarea_Comment_comment'), 'Test')
 
-WebUI.click(findTestObject('First test case/button_Book Appointment'))
+WebUI.click(findTestObject('Katalon demo app/button_Book Appointment'))
 
 WebUI.closeBrowser()
 
