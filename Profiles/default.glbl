@@ -16,11 +16,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0oamjyihi41eKDWmb0h7'</initValue>
-      <name>OktaClientID</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'https://www.oauth.com/playground/authorization-code.html'</initValue>
       <name>OktaRedirectUri</name>
    </GlobalVariableEntity>
