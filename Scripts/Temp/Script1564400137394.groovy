@@ -13,3 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+println(WebUI.getText(findTestObject('Object Repository/Katalon demo app/h3_We Care About Your Health')))
+
+WebUI.click(findTestObject('Katalon demo app/HamburgerMenu'))
+
+not_run: WebUI.closeBrowser()
+

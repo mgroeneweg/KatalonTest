@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OktaFullFlow</name>
+   <name>OktaRegister</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e96cb57e-5ffd-44e2-9be7-c15a55c64e44</testCaseGuid>
+   <testCaseGuid>78b12a7c-d447-4127-b6cd-5cb1cf73acd0</testCaseGuid>
 </TestCaseEntity>

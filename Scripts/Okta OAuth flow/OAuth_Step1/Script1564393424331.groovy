@@ -18,18 +18,26 @@ String fileName = GlobalVariable.ExcelWorkDataFileName
 
 sheet = ExcelKeywords.getExcelSheet(fileName)
 
-String state = ExcelKeywords.getCellValueByAddress(sheet, 'B2')
+String state = ExcelKeywords.getCellValueByAddress(sheet, 'A2')
+
+String clientID = ExcelKeywords.getCellValueByAddress(sheet, 'B2')
+
+String loginUser = ExcelKeywords.getCellValueByAddress(sheet, 'D2')
+
+String loginPassword = ExcelKeywords.getCellValueByAddress(sheet, 'E2')
 
 println(state)
 
-String url = (((((((GlobalVariable.OktaPreviewUrl + '?response_type=code') + '&client_id=') + GlobalVariable.OktaClientID) + 
-'&redirect_uri=') + GlobalVariable.OktaRedirectUri) + '&scope=photo+offline_access') + '&state=') + state
+String url = (((((((GlobalVariable.OktaPreviewUrl + '?response_type=code') + '&client_id=') + clientID) + '&redirect_uri=') + 
+GlobalVariable.OktaRedirectUri) + '&scope=photo+offline_access') + '&state=') + state
 
 println(url)
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(url)
 
-WebUI.waitForElementPresent(findTestObject('Okta OAuth custom/RedirectState'), 0)
+WebUI.setText(findTestObject('Object Repository/Okta/input_Username'), loginUser)
+
+WebUI.setText(findTestObject('Object Repository/Okta/input_Password'), loginPassword)
+
+WebUI.click(findTestObject('Object Repository/Okta/Submit'))
 
