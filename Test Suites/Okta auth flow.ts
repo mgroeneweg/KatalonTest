@@ -20,13 +20,13 @@
       <guid>eaf90bcc-ceb0-4ff1-bb20-8ff3f0baa548</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Okta OAuth flow/OktaRegister</testCaseId>
+      <testCaseId>Test Cases/Okta OAuth flow/Okta_1_Register</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7e09409e-4993-4c7a-85ac-57fdd6969a9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Okta OAuth flow/OAuth_Step1</testCaseId>
+      <testCaseId>Test Cases/Okta OAuth flow/Okta_2_Authenticate</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,5 +39,17 @@
          <value></value>
          <variableId>3020cff6-b433-4480-bdcc-68503c2a551d</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d34bb57c-fa7b-4380-9bee-37c2a0794744</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Okta OAuth flow/Okta_3_GetAuthorization</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d75559e0-3f5c-4fae-b58c-a2ac2e80fbad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Okta OAuth flow/Delay</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

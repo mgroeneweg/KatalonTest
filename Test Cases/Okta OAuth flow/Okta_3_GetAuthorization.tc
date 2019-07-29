@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OktaRegister</name>
+   <name>Okta_3_GetAuthorization</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>78b12a7c-d447-4127-b6cd-5cb1cf73acd0</testCaseGuid>
+   <testCaseGuid>c5b974ff-442e-4edf-b1ba-de527d7d6fb9</testCaseGuid>
 </TestCaseEntity>

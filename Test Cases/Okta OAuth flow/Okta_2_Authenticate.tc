@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Open the login page</description>
-   <name>OAuth_Step1</name>
+   <name>Okta_2_Authenticate</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cd430981-4ccb-4b25-bf9f-9b1150f14687</testCaseGuid>
