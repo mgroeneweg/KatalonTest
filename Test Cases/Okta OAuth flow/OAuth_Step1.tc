@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open the login page</description>
+   <name>OAuth_Step1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd430981-4ccb-4b25-bf9f-9b1150f14687</testCaseGuid>
+   <variable>
+      <defaultValue>'stormy-raven@example.com'</defaultValue>
+      <description></description>
+      <id>2386a20f-a5d2-444b-ad99-dfa613e95549</id>
+      <masked>false</masked>
+      <name>login</name>
+   </variable>
+   <variable>
+      <defaultValue>'Thankful-Curlew-Anxious-Jay-3'</defaultValue>
+      <description></description>
+      <id>3020cff6-b433-4480-bdcc-68503c2a551d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

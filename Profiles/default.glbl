@@ -9,4 +9,29 @@
       <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
       <name>KatalonDemoUrl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-396343.oktapreview.com/oauth2/default/v1/authorize'</initValue>
+      <name>OktaPreviewUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0oamjyihi41eKDWmb0h7'</initValue>
+      <name>OktaClientID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.oauth.com/playground/authorization-code.html'</initValue>
+      <name>OktaRedirectUri</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Data Files/WorkData/TestWorkData.xlsx'</initValue>
+      <name>ExcelWorkDataFileName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6IRAK3qYldEeOHR2lRyPicB95xJB_-5vBhWNdhlq'</initValue>
+      <name>OktaClientSecret</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
